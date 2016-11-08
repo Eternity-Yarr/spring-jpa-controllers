@@ -11,4 +11,22 @@ public class TestEntity {
       ", a=" + a +
       '}';
   }
+
+  public int getA() {
+    return a;
+  }
+
+  public TestEntity setA(int a) {
+    this.a = a;
+    return this;
+  }
+
+  public String getB() {
+    return b;
+  }
+
+  public TestEntity setB(String b) {
+    this.b = b;
+    return this;
+  }
 }
